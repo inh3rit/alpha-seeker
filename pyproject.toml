@@ -29,7 +29,7 @@ dev = [
 ]
 
 [project.scripts]
-alpha-seeker = "app.cli:app"
+alpha-seeker = "backend.app.cli:app"
 
 [tool.pytest.ini_options]
 testpaths = ["backend/tests"]
