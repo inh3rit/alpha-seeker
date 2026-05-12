@@ -2,7 +2,7 @@
 name = "alpha-seeker"
 version = "0.1.0"
 description = "A股智能推荐系统"
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 dependencies = [
     "sqlalchemy>=2.0.0",
     "psycopg2-binary>=2.9.0",
@@ -10,7 +10,6 @@ dependencies = [
     "akshare>=1.12.0",
     "pandas>=2.0.0",
     "numpy>=1.24.0",
-    "pandas-ta>=0.3.14b",
     "pydantic>=2.0.0",
     "pydantic-settings>=2.0.0",
     "python-dotenv>=1.0.0",
