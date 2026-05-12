@@ -24,6 +24,13 @@ class Settings(BaseSettings):
     log_level: str = Field(default="INFO")
     environment: str = Field(default="development")
 
+    # API
+    api_host: str = Field(default="0.0.0.0")
+    api_port: int = Field(default=8000)
+
+    # Notification
+    webhook_url: str = Field(default="")
+
     @property
     def database_url(self) -> str:
         return (
